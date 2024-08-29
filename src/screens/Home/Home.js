@@ -4,8 +4,10 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-container">
-      {/* Hero Banner */}
-      <div className="hero-banner"></div>
+      {/* Banner Section */}
+      <div className="home-banner">
+        <h1 className="home-banner-text">Welcome To Our Page!</h1>
+      </div>
 
       {/* Content Section */}
       <div className="about-section">
