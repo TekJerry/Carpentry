@@ -5,6 +5,7 @@ import  Services  from "./screens/Services/Services.js";
 import  BookNow  from "./screens/BookNow/BookNow.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import Home from './screens/Home/Home.js';
+import Gallery from './screens/Gallery/Gallery.js';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* Defining my routes here */}
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/> 
+        <Route path='/Gallery' element={<Gallery/>}/> 
         <Route path='/ContactUs' element={<ContactUs/>}/>
         <Route path='/Services' element={<Services/>}/>
         <Route path='/BookNow' element={<BookNow/>}/>
