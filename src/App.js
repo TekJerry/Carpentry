@@ -6,6 +6,7 @@ import  BookNow  from "./screens/BookNow/BookNow.js";
 import Navbar from "./components/Navbar/Navbar.js";
 import Home from './screens/Home/Home.js';
 import Gallery from './screens/Gallery/Gallery.js';
+import Footer from './components/Footer/Footer.js';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/BookNow' element={<BookNow/>}/>
       </Routes>
       </div>
+<Footer/>
     </div>
   );
 }
