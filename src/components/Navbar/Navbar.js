@@ -8,7 +8,7 @@ function Navbar() {
             <ul className="navbar-menu">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/gallery">Gallery</Link></li>
-                <li className="navbar-logo"><img src="logo.png" alt="Logo" /></li>
+                <li className="navbar-logo"><img src="https://i.imgur.com/IU6CoF3.png" alt="Logo" /></li>
                 <li><Link to="/services">Services</Link></li>
                 <li><Link to="/contactus">Contact Us</Link></li>
             </ul>

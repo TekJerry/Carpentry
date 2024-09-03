@@ -1,3 +1,4 @@
+
 .navbar {
     width: 100%;
     background-color: whitesmoke;
@@ -14,10 +15,19 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 1200px; /* Adjust this value based on your design preferences */
+    margin: 0 auto;
 }
 
 .navbar-menu li {
-    margin: 0 20px; /* Space between menu items */
+    flex: 1;
+    text-align: center;
+}
+
+.navbar-menu li.navbar-logo {
+    flex: 0 0 auto; /* Don't grow or shrink, stay at auto width */
+    margin: 0 20px; /* Adjust spacing around the logo */
 }
 
 .navbar-menu li a {
@@ -28,6 +38,8 @@
     font-weight: bold;
     padding: 10px 15px;
     transition: color 0.3s ease;
+    display: block; /* Make the entire area clickable */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .navbar-menu li a:hover {
@@ -35,7 +47,7 @@
 }
 
 .navbar-logo img {
-    height: 50px; /* Adjust the logo size */
+    height: 100px; /* Adjust the logo size */
     display: block;
 }
 
@@ -47,6 +59,7 @@
 
     .navbar-menu li {
         margin: 10px 0;
+        width: 100%;
     }
 
     .navbar-logo img {
